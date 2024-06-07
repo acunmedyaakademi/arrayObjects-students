@@ -1,0 +1,90 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  width: 1440px;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  font-family: 'Inter',sans-serif;
+}
+
+.students {
+  margin-bottom: 40px;
+}
+
+.students h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.students ol {
+  width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  list-style: none;
+  border: 1px solid black;
+  padding: 20px 20px;
+}
+
+.students li {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.genderDifference {
+  width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.genderDifference h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.genderDifference ol {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  list-style: none;
+  border: 1px solid black;
+  padding: 20px 20px;
+}
+
+.genderDifference li {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.ogrenciSayilari {
+  width: 360px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 20px 20px;
+}
+
+
